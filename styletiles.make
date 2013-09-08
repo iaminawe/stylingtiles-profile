@@ -58,9 +58,8 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
 projects[chosen][subdir] = contrib
-projects[chosen][version] = 2.0-alpha1
-projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-projects[chosen][patch][2021640] = https://drupal.org/files/2021639-chosen-pin-library-v0.10.1.patch
+projects[chosen][version] = 2.0-alpha3
+;projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.x-dev
@@ -234,7 +233,6 @@ projects[devel][version] = 1.1
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.x-dev
-projects[features][patch][1153028]= https://drupal.org/files/1153028-component-choice-13.patch
 
 projects[features_extra][subdir] = contrib
 projects[features_extra][version] = 1.0-beta1
