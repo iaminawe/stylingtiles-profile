@@ -6,4 +6,4 @@ projects[drupal][version] = 7.22
 
 projects[styletiles][type] = "profile"
 projects[styletiles][download][type] = "git"
-projects[styletiles][download][url] = "git@github.com:iaminawe/styletiles.git"
+projects[styletiles][download][url] = "https://github.com/iaminawe/stylingtiles.git"
