@@ -57,10 +57,6 @@ projects[better_formats][version] = 1.0-beta1
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
-projects[chosen][subdir] = contrib
-projects[chosen][version] = 2.0-alpha3
-;projects[chosen][patch][2021639] = https://drupal.org/files/2021639-chosen-public-directory-1.patch
-
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.x-dev
 
@@ -272,11 +268,6 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
-
-libraries[chosen][download][type] = "get"
-libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/archive/v0.10.1.zip"
-libraries[chosen][directory_name] = "chosen"
-libraries[chosen][destination] = "libraries"
 
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
