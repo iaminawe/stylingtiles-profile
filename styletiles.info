@@ -1,6 +1,6 @@
-name = Tap-it Installer
-description = Installs tap-it maps and stats setup
-version = 7.x-0.1
+name = Style Tiles Installer
+description = Installs a style tile generating machine
+version = 7.x-0
 core = 7.x
 
 ; ----------
@@ -12,12 +12,6 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = toolbar_admin_menu
-
-; Bean
-dependencies[] = bean_admin_ui
-;dependencies[] = bean_all
-;dependencies[] = bean_uuid
-dependencies[] = bean
 
 ; Chaos tool suite
 dependencies[] = ctools
@@ -45,7 +39,6 @@ dependencies[] = search
 dependencies[] = taxonomy
 dependencies[] = toolbar
 
-
 ; Display Suite
 dependencies[] = ds_extras
 dependencies[] = ds_ui
@@ -53,21 +46,12 @@ dependencies[] = ds
 
 
 ; Fields
-dependencies[] = addressfield
 dependencies[] = email
 dependencies[] = entityreference
 dependencies[] = field_group
-dependencies[] = geofield
 dependencies[] = link
 dependencies[] = references_dialog
 
-; Input filters
-;dependencies[] = image_resize_filter
-;dependencies[] = wysiwyg_filter
-
-; Location
-dependencies[] = location_taxonomize
-dependencies[] = location_taxonomize_af
 
 ; Other
 dependencies[] = advanced_help
@@ -78,14 +62,6 @@ dependencies[] = chosen
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
-dependencies[] = geofield_map
-dependencies[] = geophp
-dependencies[] = insert
-dependencies[] = leaflet
-;dependencies[] = leaflet_markercluster
-dependencies[] = leaflet_more_maps
-dependencies[] = leaflet_mapbox
-dependencies[] = leaflet_views
 dependencies[] = libraries
 dependencies[] = logintoboggan
 dependencies[] = menu_block
@@ -94,10 +70,6 @@ dependencies[] = robotstxt
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = token_tweaks
-dependencies[] = transliteration
-
-; UUID
-dependencies[] = uuid
 
 ; User interface
 dependencies[] = jquery_update
@@ -108,9 +80,7 @@ dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 dependencies[] = views
 
-
 ; Features
-dependencies[] = uuid_features
 dependencies[] = features
 
 ;custom
