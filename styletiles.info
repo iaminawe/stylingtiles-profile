@@ -58,7 +58,6 @@ dependencies[] = advanced_help
 dependencies[] = backports
 dependencies[] = backup_migrate
 dependencies[] = better_formats
-dependencies[] = chosen
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = entity_token
