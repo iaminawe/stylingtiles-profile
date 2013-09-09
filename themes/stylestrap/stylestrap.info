@@ -47,6 +47,7 @@ stylesheets[all][] = css/fields.css
 stylesheets[all][] = ../zenstrap/bootstrap/css/bootstrap.css
 stylesheets[all][] = css/bootstrap-styles.css
 stylesheets[all][] = css/print.css
+stylesheets[all][] = css/stylestrap.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html
