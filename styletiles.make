@@ -248,6 +248,12 @@ projects[dummyimage][version] = 1.4
 projects[flippy][subdir] = contrib
 projects[flippy][version] = 1.2
 
+projects[votingapi][subdir] = contrib
+projects[votingapi][version] = 1.2
+
+projects[vote_up_down][subdir] = contrib
+projects[vote_up_down][version] = 1.x-dev
+
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
