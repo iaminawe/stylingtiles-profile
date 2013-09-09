@@ -245,6 +245,9 @@ projects[stage_file_proxy][version] = 1.3
 projects[dummyimage][subdir] = contrib
 projects[dummyimage][version] = 1.4
 
+projects[flippy][subdir] = contrib
+projects[flippy][version] = 1.2
+
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
@@ -287,6 +290,9 @@ libraries[liquidcarousel][destination] = "libraries"
 libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
 
-
+libraries[colorpicker][type] = "library"
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
+libraries[colorpicker][directory_name] = "colorpicker"
 
 

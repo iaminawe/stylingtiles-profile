@@ -34,15 +34,13 @@ dependencies[] = menu
 dependencies[] = path
 dependencies[] = options
 dependencies[] = overlay
-dependencies[] = rdf
-dependencies[] = search
 dependencies[] = taxonomy
 dependencies[] = toolbar
 
 ; Display Suite
-dependencies[] = ds_extras
-dependencies[] = ds_ui
-dependencies[] = ds
+;dependencies[] = ds_extras
+;dependencies[] = ds_ui
+;dependencies[] = ds
 
 
 ; Fields
@@ -91,9 +89,4 @@ dependencies[] = features
 
 files[] = styletiles.profile
 
-
-; Information added by drush on 2013-03-18
-version = ""
-project = "styletiles"
-datestamp = "1363601045"
 
