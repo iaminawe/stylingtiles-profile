@@ -33,6 +33,9 @@ projects[link][version] = 1.0
 projects[feedback][subdir] = contrib
 projects[feedback][version] = 2.x-dev
 
+projects[cpn][subdir] = contrib
+projects[cpn][version] = 1.x-dev
+
 
 ;;;;;;;;;
 ; Path tools
@@ -300,5 +303,11 @@ libraries[colorpicker][type] = "library"
 libraries[colorpicker][download][type] = "get"
 libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 libraries[colorpicker][directory_name] = "colorpicker"
+
+libraries[codemirror][type] = "library"
+libraries[codemirror][download][type] = "get"
+libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
+libraries[codemirror][directory_name] = "codemirror"
+
 
 
