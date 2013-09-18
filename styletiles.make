@@ -33,8 +33,11 @@ projects[link][version] = 1.0
 projects[feedback][subdir] = contrib
 projects[feedback][version] = 2.x-dev
 
-projects[cpn][subdir] = contrib
-projects[cpn][version] = 1.x-dev
+projects[node_clone][subdir] = contrib
+projects[node_clone][version] = 1.0-rc1
+
+projects[live_css][subdir] = contrib
+projects[live_css][version] = 2.11
 
 
 ;;;;;;;;;
@@ -60,11 +63,20 @@ projects[better_formats][version] = 1.0-beta1
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta6
 
+projects[cpn][subdir] = contrib
+projects[cpn][version] = 1.x-dev
+
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.x-dev
 
 projects[ds][subdir] = contrib
 projects[ds][version] = 2.x-dev
+
+projects[uuid_features][subdir] = contrib
+projects[uuid_features][version] = 1.0-alpha3
+
+projects[uuid][subdir] = contrib
+projects[uuid][version] = 1.0-alpha5
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.x-dev
@@ -78,8 +90,8 @@ projects[random_fonts][version] = 1.x-dev
 projects[iconfonts][subdir] = contrib
 projects[iconfonts][version] = 2.x-dev
 
-projects[sweaver][subdir] = contrib
-projects[sweaver][version] = 1.3
+;projects[sweaver][subdir] = contrib
+;projects[sweaver][version] = 1.3
 
 projects[fences][subdir] = contrib
 projects[fences][version] = 1.0
@@ -132,10 +144,8 @@ projects[special_menu_items][version] = 2.0
 projects[token][subdir] = contrib
 projects[token][version] = 1.4
 
-; Can be removed when http://drupal.org/node/1058912 is resolved
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
-
 
 projects[webform][subdir] = contrib
 projects[webform][version] = 3.18
@@ -148,6 +158,9 @@ projects[views_content_cache][version] = 3.0-alpha2
 
 projects[views_bulk_operations][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
+
+projects[flippy][subdir] = contrib
+projects[flippy][version] = 1.2
 
 
 ;;;;;;;;;
@@ -248,15 +261,6 @@ projects[stage_file_proxy][version] = 1.3
 projects[dummyimage][subdir] = contrib
 projects[dummyimage][version] = 1.4
 
-projects[flippy][subdir] = contrib
-projects[flippy][version] = 1.2
-
-projects[votingapi][subdir] = contrib
-projects[votingapi][version] = 1.2
-
-projects[vote_up_down][subdir] = contrib
-projects[vote_up_down][version] = 1.x-dev
-
 ;;;;;;;;;
 ; Themes
 ;;;;;;;;;
@@ -264,15 +268,14 @@ projects[vote_up_down][version] = 1.x-dev
 projects[zen][type] = theme
 projects[zen][version] = 5.4
 
-projects[zenstrap][type] = theme
-projects[zenstrap][version] = 1.0
+projects[zenstrap][version] = 1.x-dev
 
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
 
 libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
+libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][destination] = "themes/zenstrap"
 
@@ -299,14 +302,14 @@ libraries[liquidcarousel][destination] = "libraries"
 libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
 
-libraries[colorpicker][type] = "library"
-libraries[colorpicker][download][type] = "get"
-libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
-libraries[colorpicker][directory_name] = "colorpicker"
-
-libraries[codemirror][type] = "library"
+libraries[codemirror][directory_name] = "codemirror"
+libraries[codemirrorl][type] = "library"
+libraries[codemirror][destination] = "/sites/all/libraries"
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
+
+
+irror][download][url] = "http://codemirror.net/codemirror.zip"
 libraries[codemirror][directory_name] = "codemirror"
 
 
