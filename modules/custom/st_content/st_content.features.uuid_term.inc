@@ -123,6 +123,20 @@ function st_content_uuid_features_default_terms() {
     ),
   );
   $terms[] = array(
+    'name' => 'Sample',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'a17ef9a8-6652-4b54-9a4b-001420242de3',
+    'vocabulary_machine_name' => 'tile_tags',
+    'url_alias' => array(
+      0 => array(
+        'alias' => 'tile-tags/sample',
+        'language' => 'und',
+      ),
+    ),
+  );
+  $terms[] = array(
     'name' => 'pioneer',
     'description' => NULL,
     'format' => NULL,
