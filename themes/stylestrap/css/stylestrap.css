@@ -1,4 +1,16 @@
 /* Stylestrap Custom css for style tiles */
+body{
+	background-color: #efefef;
+}
+
+.brand span{
+	color:black;
+}
+
+.breadcrumb{
+	display:none;
+}
+
 .node-style-tile .field-tile-background-image{
 	position:absolute;
 	z-index:10 !important;
