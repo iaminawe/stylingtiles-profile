@@ -68,6 +68,7 @@ dependencies[] = robotstxt
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = token_tweaks
+dependencies[] = fences
 
 ; User interface
 dependencies[] = jquery_update
