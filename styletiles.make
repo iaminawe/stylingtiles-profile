@@ -309,8 +309,5 @@ libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
 
 
-irror][download][url] = "http://codemirror.net/codemirror.zip"
-libraries[codemirror][directory_name] = "codemirror"
-
 
 
