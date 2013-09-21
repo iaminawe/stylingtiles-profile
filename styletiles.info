@@ -85,7 +85,7 @@ dependencies[] = features
 dependencies[] = st_general
 dependencies[] = st_projects
 dependencies[] = st_tiles
-dependencies[] = st_content
+;dependencies[] = st_content
 ;dependencies[] = st_welcome
 
 files[] = styletiles.profile
