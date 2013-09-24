@@ -69,6 +69,10 @@ dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = token_tweaks
 dependencies[] = fences
+dependencies[] = cpn
+dependencies[] = fontyourface
+dependencies[] = fontyourface_ui
+
 
 ; User interface
 dependencies[] = jquery_update
