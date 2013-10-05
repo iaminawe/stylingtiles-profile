@@ -82,7 +82,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.x-dev
 
 projects[fontyourface][subdir] = contrib
-projects[fontyourface][version] = 2.8
+projects[fontyourface][version] = 2.x-dev
 
 projects[random_fonts][subdir] = contrib
 projects[random_fonts][version] = 1.x-dev
@@ -113,6 +113,9 @@ projects[jquery_update][version] = 2.x-dev
 
 projects[jquery_colorpicker][subdir] = contrib
 projects[jquery_colorpicker][version] = 1.0-rc2
+
+projects[color_field][subdir] = contrib
+projects[color_field][version] = 1.6
 
 projects[ds_bootstrap_layouts][subdir] = contrib
 projects[ds_bootstrap_layouts][version] = 1.1
