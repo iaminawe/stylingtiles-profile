@@ -273,6 +273,9 @@ projects[dummyimage][version] = 1.4
 
 ;projects[zenstrap][version] = 1.x-dev
 
+projects[bootstrap][version] = 3.0-rc1
+projects[bootstrap][type] = theme
+
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
