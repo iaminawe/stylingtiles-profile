@@ -268,19 +268,19 @@ projects[dummyimage][version] = 1.4
 ; Themes
 ;;;;;;;;;
 
-projects[zen][type] = theme
-projects[zen][version] = 5.4
+;projects[zen][type] = theme
+;projects[zen][version] = 5.4
 
-projects[zenstrap][version] = 1.x-dev
+;projects[zenstrap][version] = 1.x-dev
 
 ;;;;;;;;;
 ; Libraries
 ;;;;;;;;;
 
-libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
-libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][destination] = "themes/zenstrap"
+;libraries[bootstrap][download][type] = "get"
+;libraries[bootstrap][download][url] = "http://getbootstrap.com/2.3.2/assets/bootstrap.zip"
+;libraries[bootstrap][directory_name] = "bootstrap"
+;libraries[bootstrap][destination] = "themes/zenstrap"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
