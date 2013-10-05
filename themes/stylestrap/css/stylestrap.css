@@ -52,9 +52,14 @@ background-color: #ececec;
 	padding:10px;
 	margin-bottom: 10px;
 	z-index:99 !important;
+}
 
+body.toolbar-drawer{
+	padding-top:0 !important;
+}
 
-
+body.toolbar{
+	padding-top:0 !important;
 }
 
 .field-st-header-image{
