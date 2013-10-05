@@ -15,7 +15,7 @@ background-color: #ececec;
 
 .node-style-tile .field-tile-background-image{
 	position:absolute;
-	z-index:10 !important;
+	z-index:1 !important;
 	top:0;
 
 }
@@ -33,15 +33,28 @@ background-color: #ececec;
 	padding: 0px;
 }
 
-.group_styletile_top,
-.group_styletile_left,
-.group_styletile_right,
-.group_styletile_bottom{
+.node-style-tile .group_styletile_bottom{
+	clear:both;
+}
+
+.field-group-format{
+	padding-right: 20px;
+	position:relative;
+	z-index:2 !important;
+	background-color: rgba(255,255,255,0.50);
+}
+
+.node-style-tile .group_styletile_top,
+.node-style-tile .group_styletile_left,
+.node-style-tile .group_styletile_right,
+.node-style-tile .group_styletile_bottom{
 	position:relative;
 	box-sizing:border-box;
 	padding:10px;
 	margin-bottom: 10px;
 	z-index:99 !important;
+
+
 
 }
 
