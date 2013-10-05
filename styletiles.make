@@ -306,11 +306,14 @@ libraries[liquidcarousel][download][type] = "get"
 libraries[liquidcarousel][download][url] = "http://www.nikolakis.net/liquidcarousel/liquidcarousel.zip"
 
 libraries[codemirror][directory_name] = "codemirror"
-libraries[codemirrorl][type] = "library"
+libraries[codemirror][type] = "library"
 libraries[codemirror][destination] = "/sites/all/libraries"
 libraries[codemirror][download][type] = "get"
 libraries[codemirror][download][url] = "http://codemirror.net/codemirror.zip"
 
-
-
+libraries[colorpicker][directory_name] = "colorpicker"
+libraries[colorpicker][type] = "library"
+libraries[colorpicker][destination] = "libraries"
+libraries[colorpicker][download][type] = "get"
+libraries[colorpicker][download][url] = "http://www.eyecon.ro/colorpicker/colorpicker.zip"
 
