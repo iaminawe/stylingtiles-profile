@@ -1,7 +1,9 @@
 /* Stylestrap Custom css for style tiles */
 body{
-	background-color: #444;
+background-color: #ececec;
 }
+
+
 
 .brand span{
 	color:black;
@@ -14,12 +16,14 @@ body{
 .node-style-tile .field-tile-background-image{
 	position:absolute;
 	z-index:10 !important;
+	top:0;
+
 }
 
 .node-style-tile{
 	position: relative !important;
-
-
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .group-styletile-top{
@@ -34,11 +38,11 @@ body{
 .group_styletile_right,
 .group_styletile_bottom{
 	position:relative;
-	z-index:99 !important;
-	background-color:rgba(255, 255, 255, 0.56);
 	box-sizing:border-box;
 	padding:10px;
 	margin-bottom: 10px;
+	z-index:99 !important;
+
 }
 
 .field-st-header-image{
