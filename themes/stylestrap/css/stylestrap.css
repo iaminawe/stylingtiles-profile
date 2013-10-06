@@ -3,8 +3,6 @@ body{
 background-color: #ececec;
 }
 
-
-
 .brand span{
 	color:black;
 }
@@ -54,12 +52,8 @@ background-color: #ececec;
 	z-index:99 !important;
 }
 
-body.toolbar-drawer{
-	padding-top:0 !important;
-}
-
 body.toolbar{
-	padding-top:0 !important;
+	padding-top:60px !important;
 }
 
 .field-st-header-image{
@@ -112,7 +106,7 @@ display:none;
 
 ul.flippy{
 	position:absolute;
-	left:200px;
+	right:0px;
 	top:-50px;
 }
 
